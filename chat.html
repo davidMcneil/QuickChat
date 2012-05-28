@@ -1,0 +1,25 @@
+<html> 
+<head> 
+<title>Quick Chat</title>
+<link rel="stylesheet" type="text/css" href="chat.css" />
+<script type="text/javascript" src="chat.js">
+</script>
+</head>
+
+<body onload="chat.load()">
+
+<div id="input">
+  <h1>QuickChat</h1>
+  <button type="button" id="post" onclick="chat.post()">post</button>
+  <p id="name">ID: </p>
+  <textarea id="text_input" rows="3" cols="40" onkeypress="chat.input(event)"></textarea>  
+</div>  
+
+<div id="wall">
+  <textarea id="wall_text" rows="15" cols="40" readonly="readonly"></textarea>
+</div>
+
+
+</body>
+
+</html>
