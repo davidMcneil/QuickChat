@@ -7,6 +7,6 @@ This is a very simple chat server created using node.js.
 - Open browser
 - URL: "http://ServerIPAddress:8000/"
 
-![Alt text](QuickChat/raw/master/screenshot.jpg)
+![Alt text](screenshot.jpg)
 
 
